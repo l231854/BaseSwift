@@ -18,6 +18,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         // Do any additional setup after loading the view, typically from a nib.
         self.title="首页";
         arrayOfData = ["画线","通知","算法","视频播放","1.0"];
+        //分支
         self.createUI();
         //注册通知
         NotificationCenter.default.addObserver(self, selector:#selector(getNotification(notification:)), name: NSNotification.Name(rawValue: "tongzhi"), object: nil)
