@@ -17,7 +17,11 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.title="首页";
+<<<<<<< HEAD
         arrayOfData = ["画线","通知","算法","视频播放","1.0"];
+=======
+        arrayOfData = ["画线","通知","算法","视频播放","1.0","2"];
+>>>>>>> 1.1
         //分支
         self.createUI();
         //注册通知
